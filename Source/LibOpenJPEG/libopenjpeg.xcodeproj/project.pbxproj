@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7BAB34E0E27FD7800F54103 /* raw.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3250E27FD7800F54103 /* raw.c */; };
+		D7BAB34F0E27FD7800F54103 /* bio.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3260E27FD7800F54103 /* bio.c */; };
+		D7BAB3500E27FD7800F54103 /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3270E27FD7800F54103 /* event.c */; };
+		D7BAB3510E27FD7800F54103 /* raw.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3280E27FD7800F54103 /* raw.h */; };
+		D7BAB3520E27FD7800F54103 /* openjpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3290E27FD7800F54103 /* openjpeg.c */; };
+		D7BAB3530E27FD7800F54103 /* mqc.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB32A0E27FD7800F54103 /* mqc.c */; };
+		D7BAB3540E27FD7800F54103 /* t1.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB32B0E27FD7800F54103 /* t1.h */; };
+		D7BAB3550E27FD7800F54103 /* j2k.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB32C0E27FD7800F54103 /* j2k.c */; };
+		D7BAB3560E27FD7800F54103 /* fix.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB32D0E27FD7800F54103 /* fix.h */; };
+		D7BAB3570E27FD7800F54103 /* j2k.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB32E0E27FD7800F54103 /* j2k.h */; };
+		D7BAB3580E27FD7800F54103 /* jpt.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB32F0E27FD7800F54103 /* jpt.h */; };
+		D7BAB3590E27FD7800F54103 /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3300E27FD7800F54103 /* image.h */; };
+		D7BAB35A0E27FD7800F54103 /* dwt.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3310E27FD7800F54103 /* dwt.c */; };
+		D7BAB35B0E27FD7800F54103 /* openjpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3320E27FD7800F54103 /* openjpeg.h */; };
+		D7BAB35C0E27FD7800F54103 /* int.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3330E27FD7800F54103 /* int.h */; };
+		D7BAB35D0E27FD7800F54103 /* t2.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3340E27FD7800F54103 /* t2.c */; };
+		D7BAB35E0E27FD7800F54103 /* cio.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3350E27FD7800F54103 /* cio.h */; };
+		D7BAB35F0E27FD7800F54103 /* dwt.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3360E27FD7800F54103 /* dwt.h */; };
+		D7BAB3600E27FD7800F54103 /* cio.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3370E27FD7800F54103 /* cio.c */; };
+		D7BAB3610E27FD7800F54103 /* jp2.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3380E27FD7800F54103 /* jp2.c */; };
+		D7BAB3620E27FD7800F54103 /* jp2.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3390E27FD7800F54103 /* jp2.h */; };
+		D7BAB3630E27FD7800F54103 /* tcd.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB33A0E27FD7800F54103 /* tcd.c */; };
+		D7BAB3640E27FD7800F54103 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB33B0E27FD7800F54103 /* image.c */; };
+		D7BAB3650E27FD7800F54103 /* jpt.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB33C0E27FD7800F54103 /* jpt.c */; };
+		D7BAB3660E27FD7800F54103 /* tgt.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB33D0E27FD7800F54103 /* tgt.h */; };
+		D7BAB3670E27FD7800F54103 /* t1.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB33E0E27FD7800F54103 /* t1.c */; };
+		D7BAB3680E27FD7800F54103 /* j2k_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB33F0E27FD7800F54103 /* j2k_lib.h */; };
+		D7BAB3690E27FD7800F54103 /* pi.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3400E27FD7800F54103 /* pi.h */; };
+		D7BAB36A0E27FD7800F54103 /* mqc.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3410E27FD7800F54103 /* mqc.h */; };
+		D7BAB36B0E27FD7800F54103 /* pi.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3420E27FD7800F54103 /* pi.c */; };
+		D7BAB36C0E27FD7800F54103 /* t2.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3430E27FD7800F54103 /* t2.h */; };
+		D7BAB36D0E27FD7800F54103 /* t1_luts.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3440E27FD7800F54103 /* t1_luts.h */; };
+		D7BAB36E0E27FD7800F54103 /* tcd.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3450E27FD7800F54103 /* tcd.h */; };
+		D7BAB36F0E27FD7800F54103 /* bio.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3460E27FD7800F54103 /* bio.h */; };
+		D7BAB3700E27FD7800F54103 /* mct.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB3470E27FD7800F54103 /* mct.h */; };
+		D7BAB3710E27FD7800F54103 /* j2k_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3480E27FD7800F54103 /* j2k_lib.c */; };
+		D7BAB3720E27FD7800F54103 /* tgt.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB3490E27FD7800F54103 /* tgt.c */; };
+		D7BAB3730E27FD7800F54103 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB34A0E27FD7800F54103 /* event.h */; };
+		D7BAB3740E27FD7800F54103 /* mct.c in Sources */ = {isa = PBXBuildFile; fileRef = D7BAB34B0E27FD7800F54103 /* mct.c */; };
+		D7BAB3750E27FD7800F54103 /* opj_includes.h in Headers */ = {isa = PBXBuildFile; fileRef = D7BAB34C0E27FD7800F54103 /* opj_includes.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2AAC046055464E500DB518D /* libopenjpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopenjpeg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79FEFEC0E27FD31009E8D13 /* MacConfigExternalDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = MacConfigExternalDebug.xcconfig; path = ../../../MacConfigExternalDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		D79FEFED0E27FD31009E8D13 /* MacConfigExternalRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = MacConfigExternalRelease.xcconfig; path = ../../../MacConfigExternalRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		D7BAB3250E27FD7800F54103 /* raw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = raw.c; sourceTree = SOURCE_ROOT; };
+		D7BAB3260E27FD7800F54103 /* bio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bio.c; sourceTree = SOURCE_ROOT; };
+		D7BAB3270E27FD7800F54103 /* event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = event.c; sourceTree = SOURCE_ROOT; };
+		D7BAB3280E27FD7800F54103 /* raw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = raw.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3290E27FD7800F54103 /* openjpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = openjpeg.c; sourceTree = SOURCE_ROOT; };
+		D7BAB32A0E27FD7800F54103 /* mqc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mqc.c; sourceTree = SOURCE_ROOT; };
+		D7BAB32B0E27FD7800F54103 /* t1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t1.h; sourceTree = SOURCE_ROOT; };
+		D7BAB32C0E27FD7800F54103 /* j2k.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = j2k.c; sourceTree = SOURCE_ROOT; };
+		D7BAB32D0E27FD7800F54103 /* fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fix.h; sourceTree = SOURCE_ROOT; };
+		D7BAB32E0E27FD7800F54103 /* j2k.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = j2k.h; sourceTree = SOURCE_ROOT; };
+		D7BAB32F0E27FD7800F54103 /* jpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpt.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3300E27FD7800F54103 /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3310E27FD7800F54103 /* dwt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dwt.c; sourceTree = SOURCE_ROOT; };
+		D7BAB3320E27FD7800F54103 /* openjpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openjpeg.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3330E27FD7800F54103 /* int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = int.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3340E27FD7800F54103 /* t2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = t2.c; sourceTree = SOURCE_ROOT; };
+		D7BAB3350E27FD7800F54103 /* cio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cio.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3360E27FD7800F54103 /* dwt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dwt.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3370E27FD7800F54103 /* cio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cio.c; sourceTree = SOURCE_ROOT; };
+		D7BAB3380E27FD7800F54103 /* jp2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jp2.c; sourceTree = SOURCE_ROOT; };
+		D7BAB3390E27FD7800F54103 /* jp2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jp2.h; sourceTree = SOURCE_ROOT; };
+		D7BAB33A0E27FD7800F54103 /* tcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tcd.c; sourceTree = SOURCE_ROOT; };
+		D7BAB33B0E27FD7800F54103 /* image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image.c; sourceTree = SOURCE_ROOT; };
+		D7BAB33C0E27FD7800F54103 /* jpt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jpt.c; sourceTree = SOURCE_ROOT; };
+		D7BAB33D0E27FD7800F54103 /* tgt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tgt.h; sourceTree = SOURCE_ROOT; };
+		D7BAB33E0E27FD7800F54103 /* t1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = t1.c; sourceTree = SOURCE_ROOT; };
+		D7BAB33F0E27FD7800F54103 /* j2k_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = j2k_lib.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3400E27FD7800F54103 /* pi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pi.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3410E27FD7800F54103 /* mqc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mqc.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3420E27FD7800F54103 /* pi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pi.c; sourceTree = SOURCE_ROOT; };
+		D7BAB3430E27FD7800F54103 /* t2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t2.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3440E27FD7800F54103 /* t1_luts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t1_luts.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3450E27FD7800F54103 /* tcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcd.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3460E27FD7800F54103 /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3470E27FD7800F54103 /* mct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mct.h; sourceTree = SOURCE_ROOT; };
+		D7BAB3480E27FD7800F54103 /* j2k_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = j2k_lib.c; sourceTree = SOURCE_ROOT; };
+		D7BAB3490E27FD7800F54103 /* tgt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tgt.c; sourceTree = SOURCE_ROOT; };
+		D7BAB34A0E27FD7800F54103 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = SOURCE_ROOT; };
+		D7BAB34B0E27FD7800F54103 /* mct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mct.c; sourceTree = SOURCE_ROOT; };
+		D7BAB34C0E27FD7800F54103 /* opj_includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opj_includes.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* libopenjpeg */ = {
+			isa = PBXGroup;
+			children = (
+				D79FEFEC0E27FD31009E8D13 /* MacConfigExternalDebug.xcconfig */,
+				D79FEFED0E27FD31009E8D13 /* MacConfigExternalRelease.xcconfig */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = libopenjpeg;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D7BAB3250E27FD7800F54103 /* raw.c */,
+				D7BAB3260E27FD7800F54103 /* bio.c */,
+				D7BAB3270E27FD7800F54103 /* event.c */,
+				D7BAB3280E27FD7800F54103 /* raw.h */,
+				D7BAB3290E27FD7800F54103 /* openjpeg.c */,
+				D7BAB32A0E27FD7800F54103 /* mqc.c */,
+				D7BAB32B0E27FD7800F54103 /* t1.h */,
+				D7BAB32C0E27FD7800F54103 /* j2k.c */,
+				D7BAB32D0E27FD7800F54103 /* fix.h */,
+				D7BAB32E0E27FD7800F54103 /* j2k.h */,
+				D7BAB32F0E27FD7800F54103 /* jpt.h */,
+				D7BAB3300E27FD7800F54103 /* image.h */,
+				D7BAB3310E27FD7800F54103 /* dwt.c */,
+				D7BAB3320E27FD7800F54103 /* openjpeg.h */,
+				D7BAB3330E27FD7800F54103 /* int.h */,
+				D7BAB3340E27FD7800F54103 /* t2.c */,
+				D7BAB3350E27FD7800F54103 /* cio.h */,
+				D7BAB3360E27FD7800F54103 /* dwt.h */,
+				D7BAB3370E27FD7800F54103 /* cio.c */,
+				D7BAB3380E27FD7800F54103 /* jp2.c */,
+				D7BAB3390E27FD7800F54103 /* jp2.h */,
+				D7BAB33A0E27FD7800F54103 /* tcd.c */,
+				D7BAB33B0E27FD7800F54103 /* image.c */,
+				D7BAB33C0E27FD7800F54103 /* jpt.c */,
+				D7BAB33D0E27FD7800F54103 /* tgt.h */,
+				D7BAB33E0E27FD7800F54103 /* t1.c */,
+				D7BAB33F0E27FD7800F54103 /* j2k_lib.h */,
+				D7BAB3400E27FD7800F54103 /* pi.h */,
+				D7BAB3410E27FD7800F54103 /* mqc.h */,
+				D7BAB3420E27FD7800F54103 /* pi.c */,
+				D7BAB3430E27FD7800F54103 /* t2.h */,
+				D7BAB3440E27FD7800F54103 /* t1_luts.h */,
+				D7BAB3450E27FD7800F54103 /* tcd.h */,
+				D7BAB3460E27FD7800F54103 /* bio.h */,
+				D7BAB3470E27FD7800F54103 /* mct.h */,
+				D7BAB3480E27FD7800F54103 /* j2k_lib.c */,
+				D7BAB3490E27FD7800F54103 /* tgt.c */,
+				D7BAB34A0E27FD7800F54103 /* event.h */,
+				D7BAB34B0E27FD7800F54103 /* mct.c */,
+				D7BAB34C0E27FD7800F54103 /* opj_includes.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libopenjpeg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BAB3510E27FD7800F54103 /* raw.h in Headers */,
+				D7BAB3540E27FD7800F54103 /* t1.h in Headers */,
+				D7BAB3560E27FD7800F54103 /* fix.h in Headers */,
+				D7BAB3570E27FD7800F54103 /* j2k.h in Headers */,
+				D7BAB3580E27FD7800F54103 /* jpt.h in Headers */,
+				D7BAB3590E27FD7800F54103 /* image.h in Headers */,
+				D7BAB35B0E27FD7800F54103 /* openjpeg.h in Headers */,
+				D7BAB35C0E27FD7800F54103 /* int.h in Headers */,
+				D7BAB35E0E27FD7800F54103 /* cio.h in Headers */,
+				D7BAB35F0E27FD7800F54103 /* dwt.h in Headers */,
+				D7BAB3620E27FD7800F54103 /* jp2.h in Headers */,
+				D7BAB3660E27FD7800F54103 /* tgt.h in Headers */,
+				D7BAB3680E27FD7800F54103 /* j2k_lib.h in Headers */,
+				D7BAB3690E27FD7800F54103 /* pi.h in Headers */,
+				D7BAB36A0E27FD7800F54103 /* mqc.h in Headers */,
+				D7BAB36C0E27FD7800F54103 /* t2.h in Headers */,
+				D7BAB36D0E27FD7800F54103 /* t1_luts.h in Headers */,
+				D7BAB36E0E27FD7800F54103 /* tcd.h in Headers */,
+				D7BAB36F0E27FD7800F54103 /* bio.h in Headers */,
+				D7BAB3700E27FD7800F54103 /* mct.h in Headers */,
+				D7BAB3730E27FD7800F54103 /* event.h in Headers */,
+				D7BAB3750E27FD7800F54103 /* opj_includes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* libopenjpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "libopenjpeg" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libopenjpeg;
+			productName = libopenjpeg;
+			productReference = D2AAC046055464E500DB518D /* libopenjpeg.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "libopenjpeg" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* libopenjpeg */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* libopenjpeg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BAB34E0E27FD7800F54103 /* raw.c in Sources */,
+				D7BAB34F0E27FD7800F54103 /* bio.c in Sources */,
+				D7BAB3500E27FD7800F54103 /* event.c in Sources */,
+				D7BAB3520E27FD7800F54103 /* openjpeg.c in Sources */,
+				D7BAB3530E27FD7800F54103 /* mqc.c in Sources */,
+				D7BAB3550E27FD7800F54103 /* j2k.c in Sources */,
+				D7BAB35A0E27FD7800F54103 /* dwt.c in Sources */,
+				D7BAB35D0E27FD7800F54103 /* t2.c in Sources */,
+				D7BAB3600E27FD7800F54103 /* cio.c in Sources */,
+				D7BAB3610E27FD7800F54103 /* jp2.c in Sources */,
+				D7BAB3630E27FD7800F54103 /* tcd.c in Sources */,
+				D7BAB3640E27FD7800F54103 /* image.c in Sources */,
+				D7BAB3650E27FD7800F54103 /* jpt.c in Sources */,
+				D7BAB3670E27FD7800F54103 /* t1.c in Sources */,
+				D7BAB36B0E27FD7800F54103 /* pi.c in Sources */,
+				D7BAB3710E27FD7800F54103 /* j2k_lib.c in Sources */,
+				D7BAB3720E27FD7800F54103 /* tgt.c in Sources */,
+				D7BAB3740E27FD7800F54103 /* mct.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = openjpeg;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = openjpeg;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D79FEFEC0E27FD31009E8D13 /* MacConfigExternalDebug.xcconfig */;
+			buildSettings = {
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DOPJ_STATIC",
+				);
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D79FEFED0E27FD31009E8D13 /* MacConfigExternalRelease.xcconfig */;
+			buildSettings = {
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DOPJ_STATIC",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "libopenjpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "libopenjpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

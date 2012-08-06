@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D775FBBD0E27F98E00427EA5 /* libmng_error.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FB960E27F98E00427EA5 /* libmng_error.h */; };
+		D775FBBE0E27F98E00427EA5 /* libmng_dither.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FB970E27F98E00427EA5 /* libmng_dither.h */; };
+		D775FBBF0E27F98E00427EA5 /* libmng_dither.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FB980E27F98E00427EA5 /* libmng_dither.c */; };
+		D775FBC00E27F98E00427EA5 /* libmng_display.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FB990E27F98E00427EA5 /* libmng_display.h */; };
+		D775FBC10E27F98E00427EA5 /* libmng_display.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FB9A0E27F98E00427EA5 /* libmng_display.c */; };
+		D775FBC20E27F98E00427EA5 /* libmng_data.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FB9B0E27F98E00427EA5 /* libmng_data.h */; };
+		D775FBC30E27F98E00427EA5 /* libmng_conf.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FB9C0E27F98E00427EA5 /* libmng_conf.h */; };
+		D775FBC40E27F98E00427EA5 /* libmng_cms.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FB9D0E27F98E00427EA5 /* libmng_cms.h */; };
+		D775FBC50E27F98E00427EA5 /* libmng_cms.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FB9E0E27F98E00427EA5 /* libmng_cms.c */; };
+		D775FBC60E27F98E00427EA5 /* libmng_chunks.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FB9F0E27F98E00427EA5 /* libmng_chunks.h */; };
+		D775FBC70E27F98E00427EA5 /* libmng_chunk_xs.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBA00E27F98E00427EA5 /* libmng_chunk_xs.c */; };
+		D775FBC80E27F98E00427EA5 /* libmng_chunk_prc.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBA10E27F98E00427EA5 /* libmng_chunk_prc.h */; };
+		D775FBC90E27F98E00427EA5 /* libmng_chunk_prc.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBA20E27F98E00427EA5 /* libmng_chunk_prc.c */; };
+		D775FBCA0E27F98E00427EA5 /* libmng_chunk_io.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBA30E27F98E00427EA5 /* libmng_chunk_io.h */; };
+		D775FBCB0E27F98E00427EA5 /* libmng_chunk_io.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBA40E27F98E00427EA5 /* libmng_chunk_io.c */; };
+		D775FBCC0E27F98E00427EA5 /* libmng_callback_xs.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBA50E27F98E00427EA5 /* libmng_callback_xs.c */; };
+		D775FBCD0E27F98E00427EA5 /* libmng_error.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBA60E27F98E00427EA5 /* libmng_error.c */; };
+		D775FBCE0E27F98E00427EA5 /* libmng.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBA70E27F98E00427EA5 /* libmng.h */; };
+		D775FBCF0E27F98E00427EA5 /* libmng_filter.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBA80E27F98E00427EA5 /* libmng_filter.h */; };
+		D775FBD00E27F98E00427EA5 /* libmng_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBA90E27F98E00427EA5 /* libmng_filter.c */; };
+		D775FBD10E27F98E00427EA5 /* libmng_jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBAA0E27F98E00427EA5 /* libmng_jpeg.c */; };
+		D775FBD20E27F98E00427EA5 /* libmng_read.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBAB0E27F98E00427EA5 /* libmng_read.h */; };
+		D775FBD30E27F98E00427EA5 /* libmng_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBAC0E27F98E00427EA5 /* libmng_zlib.h */; };
+		D775FBD40E27F98E00427EA5 /* libmng_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBAD0E27F98E00427EA5 /* libmng_zlib.c */; };
+		D775FBD50E27F98E00427EA5 /* libmng_write.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBAE0E27F98E00427EA5 /* libmng_write.h */; };
+		D775FBD60E27F98E00427EA5 /* libmng_write.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBAF0E27F98E00427EA5 /* libmng_write.c */; };
+		D775FBD70E27F98E00427EA5 /* libmng_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBB00E27F98E00427EA5 /* libmng_types.h */; };
+		D775FBD80E27F98E00427EA5 /* libmng_trace.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBB10E27F98E00427EA5 /* libmng_trace.h */; };
+		D775FBD90E27F98E00427EA5 /* libmng_trace.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBB20E27F98E00427EA5 /* libmng_trace.c */; };
+		D775FBDA0E27F98E00427EA5 /* libmng_hlapi.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBB30E27F98E00427EA5 /* libmng_hlapi.c */; };
+		D775FBDB0E27F98E00427EA5 /* libmng_pixels.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBB40E27F98E00427EA5 /* libmng_pixels.h */; };
+		D775FBDC0E27F98E00427EA5 /* libmng_pixels.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBB50E27F98E00427EA5 /* libmng_pixels.c */; };
+		D775FBDD0E27F98E00427EA5 /* libmng_objects.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBB60E27F98E00427EA5 /* libmng_objects.h */; };
+		D775FBDE0E27F98E00427EA5 /* libmng_object_prc.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBB70E27F98E00427EA5 /* libmng_object_prc.h */; };
+		D775FBDF0E27F98E00427EA5 /* libmng_object_prc.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBB80E27F98E00427EA5 /* libmng_object_prc.c */; };
+		D775FBE00E27F98E00427EA5 /* libmng_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBB90E27F98E00427EA5 /* libmng_memory.h */; };
+		D775FBE10E27F98E00427EA5 /* libmng_read.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBBA0E27F98E00427EA5 /* libmng_read.c */; };
+		D775FBE20E27F98E00427EA5 /* libmng_prop_xs.c in Sources */ = {isa = PBXBuildFile; fileRef = D775FBBB0E27F98E00427EA5 /* libmng_prop_xs.c */; };
+		D775FBE30E27F98E00427EA5 /* libmng_jpeg.h in Headers */ = {isa = PBXBuildFile; fileRef = D775FBBC0E27F98E00427EA5 /* libmng_jpeg.h */; };
+		D79680B90E27FA8400F55C3F /* libmng_chunk_descr.c in Sources */ = {isa = PBXBuildFile; fileRef = D79680B70E27FA8400F55C3F /* libmng_chunk_descr.c */; };
+		D79680BA0E27FA8400F55C3F /* libmng_chunk_descr.h in Headers */ = {isa = PBXBuildFile; fileRef = D79680B80E27FA8400F55C3F /* libmng_chunk_descr.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2AAC046055464E500DB518D /* libmng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmng.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D775FB960E27F98E00427EA5 /* libmng_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_error.h; sourceTree = SOURCE_ROOT; };
+		D775FB970E27F98E00427EA5 /* libmng_dither.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_dither.h; sourceTree = SOURCE_ROOT; };
+		D775FB980E27F98E00427EA5 /* libmng_dither.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_dither.c; sourceTree = SOURCE_ROOT; };
+		D775FB990E27F98E00427EA5 /* libmng_display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_display.h; sourceTree = SOURCE_ROOT; };
+		D775FB9A0E27F98E00427EA5 /* libmng_display.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_display.c; sourceTree = SOURCE_ROOT; };
+		D775FB9B0E27F98E00427EA5 /* libmng_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_data.h; sourceTree = SOURCE_ROOT; };
+		D775FB9C0E27F98E00427EA5 /* libmng_conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_conf.h; sourceTree = SOURCE_ROOT; };
+		D775FB9D0E27F98E00427EA5 /* libmng_cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_cms.h; sourceTree = SOURCE_ROOT; };
+		D775FB9E0E27F98E00427EA5 /* libmng_cms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_cms.c; sourceTree = SOURCE_ROOT; };
+		D775FB9F0E27F98E00427EA5 /* libmng_chunks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_chunks.h; sourceTree = SOURCE_ROOT; };
+		D775FBA00E27F98E00427EA5 /* libmng_chunk_xs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_chunk_xs.c; sourceTree = SOURCE_ROOT; };
+		D775FBA10E27F98E00427EA5 /* libmng_chunk_prc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_chunk_prc.h; sourceTree = SOURCE_ROOT; };
+		D775FBA20E27F98E00427EA5 /* libmng_chunk_prc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_chunk_prc.c; sourceTree = SOURCE_ROOT; };
+		D775FBA30E27F98E00427EA5 /* libmng_chunk_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_chunk_io.h; sourceTree = SOURCE_ROOT; };
+		D775FBA40E27F98E00427EA5 /* libmng_chunk_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_chunk_io.c; sourceTree = SOURCE_ROOT; };
+		D775FBA50E27F98E00427EA5 /* libmng_callback_xs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_callback_xs.c; sourceTree = SOURCE_ROOT; };
+		D775FBA60E27F98E00427EA5 /* libmng_error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_error.c; sourceTree = SOURCE_ROOT; };
+		D775FBA70E27F98E00427EA5 /* libmng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng.h; sourceTree = SOURCE_ROOT; };
+		D775FBA80E27F98E00427EA5 /* libmng_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_filter.h; sourceTree = SOURCE_ROOT; };
+		D775FBA90E27F98E00427EA5 /* libmng_filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_filter.c; sourceTree = SOURCE_ROOT; };
+		D775FBAA0E27F98E00427EA5 /* libmng_jpeg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_jpeg.c; sourceTree = SOURCE_ROOT; };
+		D775FBAB0E27F98E00427EA5 /* libmng_read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_read.h; sourceTree = SOURCE_ROOT; };
+		D775FBAC0E27F98E00427EA5 /* libmng_zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_zlib.h; sourceTree = SOURCE_ROOT; };
+		D775FBAD0E27F98E00427EA5 /* libmng_zlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_zlib.c; sourceTree = SOURCE_ROOT; };
+		D775FBAE0E27F98E00427EA5 /* libmng_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_write.h; sourceTree = SOURCE_ROOT; };
+		D775FBAF0E27F98E00427EA5 /* libmng_write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_write.c; sourceTree = SOURCE_ROOT; };
+		D775FBB00E27F98E00427EA5 /* libmng_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_types.h; sourceTree = SOURCE_ROOT; };
+		D775FBB10E27F98E00427EA5 /* libmng_trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_trace.h; sourceTree = SOURCE_ROOT; };
+		D775FBB20E27F98E00427EA5 /* libmng_trace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_trace.c; sourceTree = SOURCE_ROOT; };
+		D775FBB30E27F98E00427EA5 /* libmng_hlapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_hlapi.c; sourceTree = SOURCE_ROOT; };
+		D775FBB40E27F98E00427EA5 /* libmng_pixels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_pixels.h; sourceTree = SOURCE_ROOT; };
+		D775FBB50E27F98E00427EA5 /* libmng_pixels.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_pixels.c; sourceTree = SOURCE_ROOT; };
+		D775FBB60E27F98E00427EA5 /* libmng_objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_objects.h; sourceTree = SOURCE_ROOT; };
+		D775FBB70E27F98E00427EA5 /* libmng_object_prc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_object_prc.h; sourceTree = SOURCE_ROOT; };
+		D775FBB80E27F98E00427EA5 /* libmng_object_prc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_object_prc.c; sourceTree = SOURCE_ROOT; };
+		D775FBB90E27F98E00427EA5 /* libmng_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_memory.h; sourceTree = SOURCE_ROOT; };
+		D775FBBA0E27F98E00427EA5 /* libmng_read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_read.c; sourceTree = SOURCE_ROOT; };
+		D775FBBB0E27F98E00427EA5 /* libmng_prop_xs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_prop_xs.c; sourceTree = SOURCE_ROOT; };
+		D775FBBC0E27F98E00427EA5 /* libmng_jpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_jpeg.h; sourceTree = SOURCE_ROOT; };
+		D775FBE40E27F9A900427EA5 /* MacConfigExternalDebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = MacConfigExternalDebug.xcconfig; path = ../../../MacConfigExternalDebug.xcconfig; sourceTree = SOURCE_ROOT; };
+		D775FBE50E27F9A900427EA5 /* MacConfigExternalRelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = MacConfigExternalRelease.xcconfig; path = ../../../MacConfigExternalRelease.xcconfig; sourceTree = SOURCE_ROOT; };
+		D79680B70E27FA8400F55C3F /* libmng_chunk_descr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmng_chunk_descr.c; sourceTree = SOURCE_ROOT; };
+		D79680B80E27FA8400F55C3F /* libmng_chunk_descr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmng_chunk_descr.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* libmng */ = {
+			isa = PBXGroup;
+			children = (
+				D775FBE40E27F9A900427EA5 /* MacConfigExternalDebug.xcconfig */,
+				D775FBE50E27F9A900427EA5 /* MacConfigExternalRelease.xcconfig */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = libmng;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D775FB960E27F98E00427EA5 /* libmng_error.h */,
+				D775FB970E27F98E00427EA5 /* libmng_dither.h */,
+				D775FB980E27F98E00427EA5 /* libmng_dither.c */,
+				D775FB990E27F98E00427EA5 /* libmng_display.h */,
+				D775FB9A0E27F98E00427EA5 /* libmng_display.c */,
+				D775FB9B0E27F98E00427EA5 /* libmng_data.h */,
+				D775FB9C0E27F98E00427EA5 /* libmng_conf.h */,
+				D775FB9D0E27F98E00427EA5 /* libmng_cms.h */,
+				D775FB9E0E27F98E00427EA5 /* libmng_cms.c */,
+				D79680B70E27FA8400F55C3F /* libmng_chunk_descr.c */,
+				D79680B80E27FA8400F55C3F /* libmng_chunk_descr.h */,
+				D775FB9F0E27F98E00427EA5 /* libmng_chunks.h */,
+				D775FBA00E27F98E00427EA5 /* libmng_chunk_xs.c */,
+				D775FBA10E27F98E00427EA5 /* libmng_chunk_prc.h */,
+				D775FBA20E27F98E00427EA5 /* libmng_chunk_prc.c */,
+				D775FBA30E27F98E00427EA5 /* libmng_chunk_io.h */,
+				D775FBA40E27F98E00427EA5 /* libmng_chunk_io.c */,
+				D775FBA50E27F98E00427EA5 /* libmng_callback_xs.c */,
+				D775FBA60E27F98E00427EA5 /* libmng_error.c */,
+				D775FBA70E27F98E00427EA5 /* libmng.h */,
+				D775FBA80E27F98E00427EA5 /* libmng_filter.h */,
+				D775FBA90E27F98E00427EA5 /* libmng_filter.c */,
+				D775FBAA0E27F98E00427EA5 /* libmng_jpeg.c */,
+				D775FBAB0E27F98E00427EA5 /* libmng_read.h */,
+				D775FBAC0E27F98E00427EA5 /* libmng_zlib.h */,
+				D775FBAD0E27F98E00427EA5 /* libmng_zlib.c */,
+				D775FBAE0E27F98E00427EA5 /* libmng_write.h */,
+				D775FBAF0E27F98E00427EA5 /* libmng_write.c */,
+				D775FBB00E27F98E00427EA5 /* libmng_types.h */,
+				D775FBB10E27F98E00427EA5 /* libmng_trace.h */,
+				D775FBB20E27F98E00427EA5 /* libmng_trace.c */,
+				D775FBB30E27F98E00427EA5 /* libmng_hlapi.c */,
+				D775FBB40E27F98E00427EA5 /* libmng_pixels.h */,
+				D775FBB50E27F98E00427EA5 /* libmng_pixels.c */,
+				D775FBB60E27F98E00427EA5 /* libmng_objects.h */,
+				D775FBB70E27F98E00427EA5 /* libmng_object_prc.h */,
+				D775FBB80E27F98E00427EA5 /* libmng_object_prc.c */,
+				D775FBB90E27F98E00427EA5 /* libmng_memory.h */,
+				D775FBBA0E27F98E00427EA5 /* libmng_read.c */,
+				D775FBBB0E27F98E00427EA5 /* libmng_prop_xs.c */,
+				D775FBBC0E27F98E00427EA5 /* libmng_jpeg.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libmng.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D775FBBD0E27F98E00427EA5 /* libmng_error.h in Headers */,
+				D775FBBE0E27F98E00427EA5 /* libmng_dither.h in Headers */,
+				D775FBC00E27F98E00427EA5 /* libmng_display.h in Headers */,
+				D775FBC20E27F98E00427EA5 /* libmng_data.h in Headers */,
+				D775FBC30E27F98E00427EA5 /* libmng_conf.h in Headers */,
+				D775FBC40E27F98E00427EA5 /* libmng_cms.h in Headers */,
+				D775FBC60E27F98E00427EA5 /* libmng_chunks.h in Headers */,
+				D775FBC80E27F98E00427EA5 /* libmng_chunk_prc.h in Headers */,
+				D775FBCA0E27F98E00427EA5 /* libmng_chunk_io.h in Headers */,
+				D775FBCE0E27F98E00427EA5 /* libmng.h in Headers */,
+				D775FBCF0E27F98E00427EA5 /* libmng_filter.h in Headers */,
+				D775FBD20E27F98E00427EA5 /* libmng_read.h in Headers */,
+				D775FBD30E27F98E00427EA5 /* libmng_zlib.h in Headers */,
+				D775FBD50E27F98E00427EA5 /* libmng_write.h in Headers */,
+				D775FBD70E27F98E00427EA5 /* libmng_types.h in Headers */,
+				D775FBD80E27F98E00427EA5 /* libmng_trace.h in Headers */,
+				D775FBDB0E27F98E00427EA5 /* libmng_pixels.h in Headers */,
+				D775FBDD0E27F98E00427EA5 /* libmng_objects.h in Headers */,
+				D775FBDE0E27F98E00427EA5 /* libmng_object_prc.h in Headers */,
+				D775FBE00E27F98E00427EA5 /* libmng_memory.h in Headers */,
+				D775FBE30E27F98E00427EA5 /* libmng_jpeg.h in Headers */,
+				D79680BA0E27FA8400F55C3F /* libmng_chunk_descr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* libmng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "libmng" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libmng;
+			productName = libmng;
+			productReference = D2AAC046055464E500DB518D /* libmng.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "libmng" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* libmng */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* libmng */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D775FBBF0E27F98E00427EA5 /* libmng_dither.c in Sources */,
+				D775FBC10E27F98E00427EA5 /* libmng_display.c in Sources */,
+				D775FBC50E27F98E00427EA5 /* libmng_cms.c in Sources */,
+				D775FBC70E27F98E00427EA5 /* libmng_chunk_xs.c in Sources */,
+				D775FBC90E27F98E00427EA5 /* libmng_chunk_prc.c in Sources */,
+				D775FBCB0E27F98E00427EA5 /* libmng_chunk_io.c in Sources */,
+				D775FBCC0E27F98E00427EA5 /* libmng_callback_xs.c in Sources */,
+				D775FBCD0E27F98E00427EA5 /* libmng_error.c in Sources */,
+				D775FBD00E27F98E00427EA5 /* libmng_filter.c in Sources */,
+				D775FBD10E27F98E00427EA5 /* libmng_jpeg.c in Sources */,
+				D775FBD40E27F98E00427EA5 /* libmng_zlib.c in Sources */,
+				D775FBD60E27F98E00427EA5 /* libmng_write.c in Sources */,
+				D775FBD90E27F98E00427EA5 /* libmng_trace.c in Sources */,
+				D775FBDA0E27F98E00427EA5 /* libmng_hlapi.c in Sources */,
+				D775FBDC0E27F98E00427EA5 /* libmng_pixels.c in Sources */,
+				D775FBDF0E27F98E00427EA5 /* libmng_object_prc.c in Sources */,
+				D775FBE10E27F98E00427EA5 /* libmng_read.c in Sources */,
+				D775FBE20E27F98E00427EA5 /* libmng_prop_xs.c in Sources */,
+				D79680B90E27FA8400F55C3F /* libmng_chunk_descr.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = mng;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = mng;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D775FBE40E27F9A900427EA5 /* MacConfigExternalDebug.xcconfig */;
+			buildSettings = {
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DPACKAGE_NAME=\\\"\\\"",
+					"-DPACKAGE_TARNAME=\\\"\\\"",
+					"-DPACKAGE_VERSION=\\\"\\\"",
+					"-DPACKAGE_STRING=\\\"\\\"",
+					"-DPACKAGE_BUGREPORT=\\\"\\\"",
+					"-DPACKAGE=\\\"libmng\\\"",
+					"-DVERSION=\\\"1.0.9\\\"",
+					"-DPROTOTYPES=1",
+					"-D__PROTOTYPES=1",
+					"-DSTDC_HEADERS=1",
+					"-DHAVE_SYS_TYPES_H=1",
+					"-DHAVE_SYS_STAT_H=1",
+					"-DHAVE_STDLIB_H=1",
+					"-DHAVE_STRING_H=1",
+					"-DHAVE_MEMORY_H=1",
+					"-DHAVE_STRINGS_H=1",
+					"-DHAVE_INTTYPES_H=1",
+					"-DHAVE_STDINT_H=1",
+					"-DHAVE_UNISTD_H=1",
+					"-DHAVE_STRING_H=1",
+					"-DHAVE_DLFCN_H=1",
+					"-DSTDC_HEADERS=1",
+					"-DMNG_BUILD_SO=1",
+					"-DMNG_SUPPORT_FULL=1",
+					"-DMNG_SUPPORT_READ=1",
+					"-DMNG_SUPPORT_WRITE=1",
+					"-DMNG_SUPPORT_DISPLAY=1",
+					"-DMNG_SUPPORT_DYNAMICMNG=1",
+					"-DMNG_ACCESS_CHUNKS=1",
+					"-DMNG_STORE_CHUNKS=1",
+					"-DMNG_ERROR_TELLTALE=1",
+					"-DHAVE_LIBZ=1",
+				);
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D775FBE50E27F9A900427EA5 /* MacConfigExternalRelease.xcconfig */;
+			buildSettings = {
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DPACKAGE_NAME=\\\"\\\"",
+					"-DPACKAGE_TARNAME=\\\"\\\"",
+					"-DPACKAGE_VERSION=\\\"\\\"",
+					"-DPACKAGE_STRING=\\\"\\\"",
+					"-DPACKAGE_BUGREPORT=\\\"\\\"",
+					"-DPACKAGE=\\\"libmng\\\"",
+					"-DVERSION=\\\"1.0.9\\\"",
+					"-DPROTOTYPES=1",
+					"-D__PROTOTYPES=1",
+					"-DSTDC_HEADERS=1",
+					"-DHAVE_SYS_TYPES_H=1",
+					"-DHAVE_SYS_STAT_H=1",
+					"-DHAVE_STDLIB_H=1",
+					"-DHAVE_STRING_H=1",
+					"-DHAVE_MEMORY_H=1",
+					"-DHAVE_STRINGS_H=1",
+					"-DHAVE_INTTYPES_H=1",
+					"-DHAVE_STDINT_H=1",
+					"-DHAVE_UNISTD_H=1",
+					"-DHAVE_STRING_H=1",
+					"-DHAVE_DLFCN_H=1",
+					"-DSTDC_HEADERS=1",
+					"-DMNG_BUILD_SO=1",
+					"-DMNG_SUPPORT_FULL=1",
+					"-DMNG_SUPPORT_READ=1",
+					"-DMNG_SUPPORT_WRITE=1",
+					"-DMNG_SUPPORT_DISPLAY=1",
+					"-DMNG_SUPPORT_DYNAMICMNG=1",
+					"-DMNG_ACCESS_CHUNKS=1",
+					"-DMNG_STORE_CHUNKS=1",
+					"-DMNG_ERROR_TELLTALE=1",
+					"-DHAVE_LIBZ=1",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "libmng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "libmng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
