@@ -42,7 +42,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\;&quot;$(ProjectDir)\..\..\..\zlib-1.2.3&quot;;..\DeprecationManager;..\OpenEXR\Half;..\OpenEXR\Iex;..\OpenEXR\IlmImf;..\OpenEXR\Imath;..\OpenEXR\IlmThread"
+				AdditionalIncludeDirectories="..\;&quot;$(ProjectDir)\..\..\..\zlib&quot;;..\DeprecationManager;..\OpenEXR\Half;..\OpenEXR\Iex;..\OpenEXR\IlmImf;..\OpenEXR\Imath;..\OpenEXR\IlmThread"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB;OPJ_STATIC;FREEIMAGE_LIB;ZLIB_WINAPI;_CRT_SECURE_NO_DEPRECATE"
 				StringPooling="false"
 				RuntimeLibrary="3"
@@ -111,7 +111,7 @@
 				Optimization="2"
 				InlineFunctionExpansion="0"
 				WholeProgramOptimization="true"
-				AdditionalIncludeDirectories="..\;&quot;$(ProjectDir)\..\..\..\zlib-1.2.3&quot;;..\DeprecationManager;..\OpenEXR\Half;..\OpenEXR\Iex;..\OpenEXR\IlmImf;..\OpenEXR\Imath;..\OpenEXR\IlmThread"
+				AdditionalIncludeDirectories="..\;&quot;$(ProjectDir)\..\..\..\zlib&quot;;..\DeprecationManager;..\OpenEXR\Half;..\OpenEXR\Iex;..\OpenEXR\IlmImf;..\OpenEXR\Imath;..\OpenEXR\IlmThread"
 				PreprocessorDefinitions="WIN32;NDEBUG;OPJ_STATIC;FREEIMAGE_LIB;ZLIB_WINAPI;_CRT_SECURE_NO_DEPRECATE"
 				StringPooling="true"
 				RuntimeLibrary="2"

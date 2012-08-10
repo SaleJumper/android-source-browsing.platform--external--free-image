@@ -45,7 +45,7 @@
 				Optimization="2"
 				InlineFunctionExpansion="0"
 				WholeProgramOptimization="true"
-				AdditionalIncludeDirectories="&quot;$(ProjectDir)\..\..\..\zlib-1.2.3&quot;;..\LibJPEG"
+				AdditionalIncludeDirectories="&quot;$(ProjectDir)\..\..\..\zlib&quot;;..\LibJPEG"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;ZLIB_WINAPI;_CRT_SECURE_NO_DEPRECATE"
 				StringPooling="true"
 				RuntimeLibrary="2"
@@ -114,7 +114,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(ProjectDir)\..\..\..\zlib-1.2.3&quot;;..\LibJPEG"
+				AdditionalIncludeDirectories="&quot;$(ProjectDir)\..\..\..\zlib&quot;;..\LibJPEG"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB;ZLIB_WINAPI;_CRT_SECURE_NO_DEPRECATE"
 				StringPooling="false"
 				RuntimeLibrary="3"
