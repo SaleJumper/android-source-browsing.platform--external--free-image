@@ -45,7 +45,7 @@
 				Optimization="2"
 				InlineFunctionExpansion="0"
 				WholeProgramOptimization="true"
-				AdditionalIncludeDirectories="..\libtiff\libtiff;&quot;$(ProjectDir)\..\..\..\zlib-1.2.3&quot;"
+				AdditionalIncludeDirectories="..\libtiff\libtiff;&quot;$(ProjectDir)\..\..\..\zlib&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;ZLIB_WINAPI;_CRT_SECURE_NO_DEPRECATE"
 				StringPooling="true"
 				RuntimeLibrary="2"
@@ -113,7 +113,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\libtiff\libtiff;&quot;$(ProjectDir)\..\..\..\zlib-1.2.3&quot;"
+				AdditionalIncludeDirectories="..\libtiff\libtiff;&quot;$(ProjectDir)\..\..\..\zlib&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB;ZLIB_WINAPI;_CRT_SECURE_NO_DEPRECATE"
 				StringPooling="false"
 				RuntimeLibrary="3"
