@@ -318,7 +318,7 @@
 		D7A1E5950E2BD25800010CB8 /* Quantizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Quantizers.h; path = Source/Quantizers.h; sourceTree = SOURCE_ROOT; };
 		D7A1E5960E2BD25800010CB8 /* ToneMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToneMapping.h; path = Source/ToneMapping.h; sourceTree = SOURCE_ROOT; };
 		D7A1E5970E2BD25800010CB8 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = Source/Utilities.h; sourceTree = SOURCE_ROOT; };
-		D7A1E5AC0E2BD38A00010CB8 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = "../zlib-1.2.3/zutil.h"; sourceTree = SOURCE_ROOT; };
+		D7A1E5AC0E2BD38A00010CB8 /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zutil.h; path = ../zlib/zutil.h; sourceTree = SOURCE_ROOT; };
 		D7A5F24B0E2BD40100DA164A /* libjpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libjpeg.xcodeproj; path = Source/LibJPEG/libjpeg.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D7A5F2660E2BD41300DA164A /* libmng.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libmng.xcodeproj; path = Source/LibMNG/libmng.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D7A5F2710E2BD43200DA164A /* libopenjpeg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libopenjpeg.xcodeproj; path = Source/LibOpenJPEG/libopenjpeg.xcodeproj; sourceTree = SOURCE_ROOT; };
