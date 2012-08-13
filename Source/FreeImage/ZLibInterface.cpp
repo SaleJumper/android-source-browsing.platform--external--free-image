@@ -27,7 +27,7 @@
 #elif defined(WIN32) || defined(_WIN32)
 #include <zutil.h>	/* must be the last header because of error C3163 in VS2008 (_vsnprintf defined in stdio.h) */
 #else
-#include "../../../zlib-1.2.3/zutil.h"
+#include "../../../zlib/zutil.h"
 #endif
 
 /**
